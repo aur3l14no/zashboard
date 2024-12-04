@@ -83,4 +83,5 @@ export enum ROUTE_NAME {
   logs = 'logs',
   rules = 'rules',
   settings = 'settings',
+  profile = 'profile',
 }

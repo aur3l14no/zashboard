@@ -83,6 +83,10 @@ export default {
   bar: 'Bar',
   exportSettings: 'Export Settings',
   importSettings: 'Import Settings',
+  profile: 'Profile',
+  updateProfile: 'Update Profile',
+  start: 'Start',
+  stop: 'Stop',
   [LANG.EN_US]: 'English',
   [LANG.ZH_CN]: '中文',
 }

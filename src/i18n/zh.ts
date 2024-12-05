@@ -83,6 +83,10 @@ export default {
   bar: '条',
   exportSettings: '导出设置',
   importSettings: '导入设置',
+  profile: '配置文件',
+  updateProfile: '更新配置文件',
+  start: '启动',
+  stop: '停止',
   [LANG.EN_US]: 'English',
   [LANG.ZH_CN]: '中文',
 }

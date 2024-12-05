@@ -76,6 +76,7 @@ import {
   Cog6ToothIcon,
   DocumentTextIcon,
   GlobeAltIcon,
+  ServerStackIcon,
   WrenchScrewdriverIcon,
 } from '@heroicons/vue/24/outline'
 import { computed, watch } from 'vue'
@@ -91,6 +92,7 @@ const routeIconMap = {
   [ROUTE_NAME.rules]: WrenchScrewdriverIcon,
   [ROUTE_NAME.logs]: DocumentTextIcon,
   [ROUTE_NAME.settings]: Cog6ToothIcon,
+  [ROUTE_NAME.profile]: ServerStackIcon,
 }
 
 const ctrlsMap = {

@@ -42,7 +42,7 @@ const router = createRouter({
     },
     {
       path: '/setup',
-      name: ROUTE_NAME.setup,
+      name: 'setup',
       component: SetupPage,
     },
     {

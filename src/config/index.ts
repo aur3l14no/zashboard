@@ -3,7 +3,6 @@ import {
   Cog6ToothIcon,
   DocumentTextIcon,
   GlobeAltIcon,
-  PlayIcon,
   WrenchScrewdriverIcon,
 } from '@heroicons/vue/24/outline'
 
@@ -95,7 +94,6 @@ export enum ROUTE_NAME {
   logs = 'logs',
   rules = 'rules',
   settings = 'settings',
-  setup = 'setup',
 }
 
 export const ROUTE_ICON_MAP = {
@@ -104,5 +102,4 @@ export const ROUTE_ICON_MAP = {
   [ROUTE_NAME.rules]: WrenchScrewdriverIcon,
   [ROUTE_NAME.logs]: DocumentTextIcon,
   [ROUTE_NAME.settings]: Cog6ToothIcon,
-  [ROUTE_NAME.setup]: PlayIcon,
 }
